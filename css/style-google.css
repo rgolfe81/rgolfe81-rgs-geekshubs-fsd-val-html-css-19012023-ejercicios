@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    height: 10vh;
+    display: flex;
+}
+#header-left{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+}
+#header-right{
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.separacionLinks{
+    margin: 0.5em;
+}
+#section{
+    height: 65vh;
+}
+#section-icono-google{
+    height: 70%;
+    width: 100%;
+}
+.imagenCentrada{
+    display: flex;
+    justify-content: center;
+}
+#section-botones-centrales{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formatoBoton{
+    width: 15em;
+    height: 2em;
+}
+#section-idiomas{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    height: 20vh;
+}
+#footer-sup{
+    height: 50%;
+    display: flex;
+}
+#footer-inf{
+    height: 50%;
+    display: flex;
+}
+#footer-inf-left{
+    width: 30vw;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+#footer-inf-center{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer-inf-right{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
