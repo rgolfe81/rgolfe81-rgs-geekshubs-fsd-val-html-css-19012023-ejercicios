@@ -1,0 +1,65 @@
+body{
+    /* background-image: url(../img/wallpaper_bing.jpg); */
+    background-size: cover;
+    margin: 0;
+}
+.container{
+    background-color: blue;
+    height: 100vh;
+}
+#header{
+    background-color: brown;
+    height: 10vh;
+    display: flex;
+}
+#logoBing{
+    background-color: red;
+    width: 20vw;
+}
+#imagenesVideos{
+    background-color: blueviolet;
+    width: 20vw;
+}
+#vacio{
+    background-color: coral;
+    width: 20vw;
+}
+#idiomasLogin{
+    background-color: darkgray;
+    width: 40vw;
+}
+#section{
+    background-color: yellow;
+    height: 60vh;
+}
+#footer{
+    background-color: green;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+#footerUp{
+    background-color: darkorange;
+    height: 20vh;
+    display: flex;
+}
+#footerUpLeft{
+    background-color: crimson;
+    width: 50vw;
+}
+#footerUpRight{
+    background-color: cadetblue;
+    width: 50vw;
+}
+#footerDown{
+    background-color: hotpink;
+    height: 80vh;
+    display: flex;
+    margin-inline: 5em;
+    
+}
+.news{
+    background-color: blue;
+    width: 15vw;
+    margin: 0 2em;
+}
