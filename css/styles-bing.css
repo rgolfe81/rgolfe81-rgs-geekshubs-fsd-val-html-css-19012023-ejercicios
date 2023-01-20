@@ -7,6 +7,9 @@ body{
 .container{
     height: 100vh;
 }
+a{
+    text-decoration: none;
+}
 #header{
     height: 10vh;
     display: flex;
