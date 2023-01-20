@@ -40,20 +40,28 @@ a{
 }
 #section{
     height: 55vh;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#inputPadre{
-    margin: 0 auto;
-}
-#inputBuscador{
-    margin-top: 8em;
-    width: 50vw;
-    height: 8vh;
+#bloqueBuscador{
+    background-color: white;
+    height: 3.5em;
+    width: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 1em;
-    border: none;
 }
-#inputBuscador:hover{
-    border: solid 1px;
+#formatInput{
+    margin-left: 1em;
+    height: 2em;
+    width: 25em;
+    font-size: 1em;
+    border: 0;
+}
+#formatIconosBuscador{
+    margin-right: 1em;
 }
 #footer{
     height: 35vh;
