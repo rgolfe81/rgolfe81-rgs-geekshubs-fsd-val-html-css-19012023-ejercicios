@@ -1,65 +1,120 @@
 body{
-    /* background-image: url(../img/wallpaper_bing.jpg); */
+    background-image: url(../img/wallpaper_bing.jpg);
     background-size: cover;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    background-color: blue;
     height: 100vh;
 }
 #header{
-    background-color: brown;
     height: 10vh;
     display: flex;
 }
 #logoBing{
-    background-color: red;
     width: 20vw;
 }
 #imagenesVideos{
-    background-color: blueviolet;
     width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 3em;
+}
+.colorText{
+    color: white;
 }
 #vacio{
-    background-color: coral;
     width: 20vw;
 }
 #idiomasLogin{
-    background-color: darkgray;
     width: 40vw;
+    display: flex;
+    justify-content:space-around;
+    margin-inline-end: 3em;
+}
+.tamañoIcono{
+    width: 2em;
 }
 #section{
-    background-color: yellow;
-    height: 60vh;
+    height: 55vh;
+    text-align: center;
+}
+#inputPadre{
+    margin: 0 auto;
+}
+#inputBuscador{
+    margin-top: 8em;
+    width: 50vw;
+    height: 8vh;
+    border-radius: 1em;
+    border: none;
+}
+#inputBuscador:hover{
+    border: solid 1px;
 }
 #footer{
-    background-color: green;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
 }
 #footerUp{
-    background-color: darkorange;
     height: 20vh;
     display: flex;
+    margin-inline: 5em;
 }
 #footerUpLeft{
-    background-color: crimson;
     width: 50vw;
+    margin-left: 2em;
 }
 #footerUpRight{
-    background-color: cadetblue;
     width: 50vw;
+    display: flex;
+    justify-content: end;
+    margin-right: 2em;
+}
+.btnInfo{
+    background-color:rgb(50, 66, 66);
+    color: white;
+    height: 3em;
+    width: 6em;
+    border-radius: 0.5em;
+    margin: 0 0.2em;
+}
+.btnInfo:hover{
+    background-color: darkslategrey;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.btnFlecha{
+    background-color:rgb(50, 66, 66);
+    color: white;
+    height: 3em;
+    width: 3em;
+    border-radius: 0.5em;
+    margin: 0 0.2em;
+}
+.btnFlecha:hover{
+    background-color: darkslategrey;
+    transition: 0.2s;
+    cursor: pointer;
 }
 #footerDown{
-    background-color: hotpink;
     height: 80vh;
     display: flex;
     margin-inline: 5em;
-    
 }
 .news{
-    background-color: blue;
     width: 15vw;
+    height: 22vh;
     margin: 0 2em;
+}
+.tamañoImagenNew{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+}
+.alignCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
